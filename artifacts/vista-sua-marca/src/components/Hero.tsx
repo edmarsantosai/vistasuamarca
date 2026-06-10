@@ -22,13 +22,13 @@ export function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <span className="inline-block py-1 px-3 border border-primary/30 text-primary text-xs font-semibold tracking-widest uppercase mb-6 bg-background/50 backdrop-blur-sm">
-              Identidade Visual Corporativa
+              Camisetas Personalizadas Premium
             </span>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-foreground leading-[1.1] mb-6">
-              Sua marca vestida com <span className="italic text-primary">padrão, qualidade e presença.</span>
+              Uniformize sua equipe com qualidade que <span className="italic text-primary">valoriza sua marca.</span>
             </h1>
             <p className="text-lg md:text-xl text-foreground/80 mb-10 max-w-xl leading-relaxed">
-              Camisetas personalizadas de alto padrão para empresas, eventos, igrejas, hotelaria, construtoras, imobiliárias, cafés premium e equipes que valorizam sua identidade.
+              Camisetas personalizadas de alto padrão para empresas, hotelaria, construtoras, imobiliárias, igrejas, cafés premium e eventos corporativos.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

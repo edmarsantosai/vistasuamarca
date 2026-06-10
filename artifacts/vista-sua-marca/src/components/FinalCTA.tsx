@@ -11,10 +11,10 @@ export function FinalCTA() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-6xl font-serif mb-6 leading-tight">
-            Pronto para vestir sua marca com mais <span className="text-primary italic">presença?</span>
+            Sua equipe representa sua marca <span className="text-primary italic">todos os dias.</span>
           </h2>
           <p className="text-lg md:text-xl text-background/70 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Transforme sua equipe em uma extensão da sua identidade visual com camisetas personalizadas de alto padrão.
+            Invista em uma apresentação profissional que gera mais credibilidade, reconhecimento e confiança.
           </p>
           <a
             href="https://wa.me/554732125395"
@@ -23,7 +23,7 @@ export function FinalCTA() {
             className="inline-flex items-center justify-center px-10 py-5 bg-primary text-primary-foreground text-lg font-bold hover:bg-white hover:text-foreground transition-all duration-300"
             data-testid="final-cta-btn"
           >
-            Solicitar orçamento pelo WhatsApp
+            Falar com um especialista
           </a>
         </motion.div>
       </div>

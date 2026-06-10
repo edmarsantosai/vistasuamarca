@@ -1,0 +1,222 @@
+ATUALIZE A LANDING PAGE “VISTA SUA MARCA” MANTENDO O VISUAL PREMIUM JÁ EXISTENTE.
+
+IMPORTANTE:
+
+NÃO alterar a identidade visual atual.
+
+NÃO alterar a paleta de cores.
+
+NÃO alterar a tipografia.
+
+NÃO alterar a estrutura premium que já foi criada.
+
+As fotos atuais permanecerão temporariamente e serão substituídas posteriormente.
+
+O objetivo desta atualização é aumentar a conversão e a credibilidade da página.
+
+========================================
+ALTERAÇÃO 1
+
+Substituir o selo:
+
+“IDENTIDADE VISUAL CORPORATIVA”
+
+por:
+
+“CAMISETAS PERSONALIZADAS PREMIUM”
+
+========================================
+ALTERAÇÃO 2
+
+Alterar o título principal para:
+
+“Uniformize sua equipe com qualidade que valoriza sua marca.”
+
+Subtítulo:
+
+“Camisetas personalizadas de alto padrão para empresas, hotelaria, construtoras, imobiliárias, igrejas, cafés premium e eventos corporativos.”
+
+========================================
+ALTERAÇÃO 3
+
+Inserir uma nova seção logo após o Hero.
+
+Título:
+
+“Sua equipe é a primeira impressão da sua marca.”
+
+Texto:
+
+“Uma equipe bem apresentada transmite organização, confiança e profissionalismo. Criamos camisetas personalizadas que fortalecem a imagem da sua empresa em cada atendimento.”
+
+Adicionar três cards:
+
+✓ Mais credibilidade
+
+✓ Mais profissionalismo
+
+✓ Mais valorização da marca
+
+========================================
+ALTERAÇÃO 4
+
+Criar uma seção de orçamento rápido.
+
+Título:
+
+“Solicite seu orçamento em menos de 30 segundos”
+
+Campos:
+
+Segmento:
+
+* Empresa
+* Construtora
+* Imobiliária
+* Hotelaria
+* Igreja
+* Evento
+* Café Premium
+* Outro
+
+Quantidade:
+
+* Até 30 peças
+* 30 a 100 peças
+* 100 a 300 peças
+* Acima de 300 peças
+
+Botão:
+
+“Receber orçamento pelo WhatsApp”
+
+Ao clicar, enviar as informações preenchidas para o WhatsApp.
+
+========================================
+ALTERAÇÃO 5
+
+Criar seção:
+
+“Produção sob medida”
+
+Texto:
+
+“Atendemos desde pequenas equipes até grandes operações, sempre com o mesmo padrão de qualidade e acabamento.”
+
+Adicionar destaques:
+
+✓ Pequenas equipes
+
+✓ Grandes empresas
+
+✓ Eventos corporativos
+
+✓ Produção recorrente
+
+========================================
+ALTERAÇÃO 6
+
+Criar seção de autoridade.
+
+Título:
+
+“Experiência que gera confiança”
+
+Texto:
+
+“Mais de 30 anos de experiência no setor têxtil ajudando empresas a apresentar sua marca com mais profissionalismo.”
+
+Adicionar um bloco elegante para futura inserção de foto da equipe.
+
+Utilizar placeholder temporário.
+
+========================================
+ALTERAÇÃO 7
+
+Criar seção:
+
+“Empresas que confiam em nós”
+
+Inserir área com logos fictícios temporários.
+
+Utilizar placeholders.
+
+Criar estrutura pronta para substituir posteriormente por logos reais.
+
+========================================
+ALTERAÇÃO 8
+
+Criar seção específica para HOTELARIA.
+
+Título:
+
+“Uniformização Premium para Hotelaria”
+
+Texto:
+
+“Soluções para recepção, governança, manutenção e equipes de atendimento, com conforto, elegância e padronização profissional.”
+
+Adicionar botão:
+
+“Solicitar orçamento”
+
+========================================
+ALTERAÇÃO 9
+
+Criar seção específica para EVENTOS.
+
+Título:
+
+“Eventos que fortalecem sua marca”
+
+Texto:
+
+“Camisetas personalizadas para staff, feiras, congressos, lançamentos e eventos corporativos.”
+
+Adicionar botão:
+
+“Solicitar orçamento”
+
+========================================
+ALTERAÇÃO 10
+
+Criar uma nova chamada final.
+
+Título:
+
+“Sua equipe representa sua marca todos os dias.”
+
+Texto:
+
+“Invista em uma apresentação profissional que gera mais credibilidade, reconhecimento e confiança.”
+
+Botão principal:
+
+“Falar com um especialista”
+
+========================================
+ALTERAÇÃO 11
+
+Melhorar SEO.
+
+Adicionar:
+
+Title:
+
+Vista Sua Marca | Camisetas Personalizadas Premium
+
+Meta Description:
+
+Camisetas personalizadas premium para empresas, hotelaria, eventos, igrejas, construtoras e imobiliárias. Solicite seu orçamento.
+
+========================================
+ALTERAÇÃO 12
+
+Garantir que existam pelo menos 6 botões de conversão distribuídos pela página.
+
+Todos devem levar para o WhatsApp.
+
+========================================
+OBJETIVO FINAL
+
+A página deve parecer uma empresa consolidada, especializada em uniformização premium para empresas e equipes, transmitindo confiança, experiência, qualidade e profissionalismo.
