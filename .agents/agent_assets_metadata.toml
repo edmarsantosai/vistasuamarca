@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "3NwQ6d3NsfWj_47cyWDV0"
+uri = "file://artifacts/vista-sua-marca/src/assets/images/hero.png"
+type = "image"
+title = "Corporate team in premium uniforms"
+
+[[generated]]
+id = "OebYrX6j525Hb0IleJuyU"
+uri = "file://artifacts/vista-sua-marca/src/assets/images/product-corporativa.png"
+type = "image"
+title = "Premium corporate t-shirt"
+
+[[generated]]
+id = "7L6w63DR7kYsuTSGU9Irb"
+uri = "file://artifacts/vista-sua-marca/src/assets/images/product-eventos.png"
+type = "image"
+title = "Event staff t-shirt"
+
+[[generated]]
+id = "-PCMRclVfxR9GaCE5zX4a"
+uri = "file://artifacts/vista-sua-marca/src/assets/images/product-staff.png"
+type = "image"
+title = "Staff t-shirt uniform"
+
+[[generated]]
+id = "yJXhFtU4Q-7uyVRhbMg51"
+uri = "file://artifacts/vista-sua-marca/src/assets/images/product-estonada.png"
+type = "image"
+title = "Stonewashed premium t-shirt"
+
+[[generated]]
+id = "k_ycb03JmWFYGgM894rGR"
+uri = "file://artifacts/vista-sua-marca/src/assets/images/product-marmorizada.png"
+type = "image"
+title = "Marble wash premium t-shirt"
+
+[[generated]]
+id = "1BWuXX3DArtIC2FIJcsbv"
+uri = "file://artifacts/vista-sua-marca/src/assets/images/product-uniforme.png"
+type = "image"
+title = "Premium complete uniform"

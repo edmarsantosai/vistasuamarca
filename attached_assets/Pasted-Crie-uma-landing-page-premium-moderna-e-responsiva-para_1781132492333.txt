@@ -1,0 +1,173 @@
+Crie uma landing page premium, moderna e responsiva para a marca Vista Sua Marca.
+
+Domínio: vistasuamarca.com.br
+
+A empresa vende camisetas personalizadas de alto padrão para empresas, eventos, equipes e organizações que querem padronização profissional.
+
+O site deve transmitir: sofisticação, confiança, qualidade, organização e imagem corporativa.
+
+Público-alvo:
+
+* Construtoras
+* Imobiliárias
+* Hotelaria
+* Cafés premium
+* Salões de beleza premium
+* Igrejas
+* Eventos
+* Staff de eventos
+* Setores administrativos
+* Equipes comerciais
+* Empresas que querem uniformização premium
+
+Estilo visual:
+
+* Fundo branco ou off-white
+* Detalhes em preto, cinza escuro e dourado suave
+* Layout clean
+* Tipografia elegante
+* Fotos profissionais
+* Botões bem destacados para WhatsApp
+* Visual premium, não promocional
+
+Estrutura do site:
+
+1. Header fixo
+    Logo: Vista Sua Marca
+    Menu:
+
+* Início
+* Segmentos
+* Produtos
+* Como Funciona
+* Orçamento
+
+Botão no topo:
+Solicitar Orçamento
+
+2. Hero principal
+
+Título:
+Sua marca vestida com padrão, qualidade e presença.
+
+Subtítulo:
+Camisetas personalizadas de alto padrão para empresas, eventos, igrejas, hotelaria, construtoras, imobiliárias, cafés premium e equipes que valorizam sua imagem.
+
+Botões:
+Solicitar orçamento
+Falar pelo WhatsApp
+
+Adicionar imagem premium de pessoas usando camisetas personalizadas em ambiente corporativo/evento.
+
+3. Seção de autoridade
+
+Título:
+Muito além de uma camiseta.
+
+Texto:
+A camiseta da sua equipe comunica organização, cuidado e profissionalismo antes mesmo da primeira palavra.
+
+Adicionar 3 destaques:
+
+* Padronização profissional
+* Qualidade premium
+* Atendimento consultivo
+
+4. Segmentos atendidos
+
+Criar cards com ícones e pequenas descrições para:
+
+* Construtoras
+* Imobiliárias
+* Hotelaria
+* Cafés Premium
+* Salões de Beleza
+* Igrejas
+* Eventos
+* Staff
+* Empresas
+* Equipes Comerciais
+
+5. Produtos
+
+Título:
+Soluções para vestir sua marca
+
+Cards:
+
+* Camisetas Corporativas
+* Camisetas para Eventos
+* Camisetas para Staff
+* Camisetas Estonadas
+* Camisetas Marmorizadas
+* Uniformização Premium
+
+Cada card deve ter imagem ilustrativa, breve descrição e botão:
+Pedir orçamento
+
+6. Diferenciais
+
+Título:
+Por que escolher a Vista Sua Marca?
+
+Itens:
+
+* Camisetas de alto padrão
+* Malhas selecionadas
+* Estampas duráveis
+* Visual profissional
+* Produção para pequenas e grandes equipes
+* Personalização conforme sua identidade visual
+* Entrega para todo o Brasil
+* Atendimento direto pelo WhatsApp
+
+7. Como funciona
+
+Criar uma linha com 5 passos:
+
+1. Você chama no WhatsApp
+2. Envia sua logo ou ideia
+3. Definimos modelo, cor e quantidade
+4. Preparamos o orçamento
+5. Produzimos e entregamos
+6. Depoimentos
+
+Criar 3 depoimentos fictícios apenas para demonstração do layout.
+
+9. Chamada final
+
+Título:
+Pronto para vestir sua marca com mais presença?
+
+Texto:
+Transforme sua equipe em uma extensão da sua identidade visual com camisetas personalizadas de alto padrão.
+
+Botão:
+Solicitar orçamento pelo WhatsApp
+
+10. Rodapé
+
+Logo: Vista Sua Marca
+
+Frase:
+Vista sua marca. Valorize sua equipe. Impressione seu cliente.
+
+Informações:
+WhatsApp: inserir número genérico por enquanto
+Instagram: @vistasuamarca
+E-mail: contato@vistasuamarca.com.br
+Cidade: Brusque - SC
+
+Requisitos técnicos:
+
+* Criar em React
+* Usar Tailwind CSS
+* Design responsivo
+* Botão flutuante de WhatsApp
+* Animações suaves
+* Código limpo e organizado
+* Componentes bem separados
+* SEO básico com title e description
+* Layout bonito também no celular
+* Não usar visual de camiseta barata ou promocional
+* Usar textos em português do Brasil
