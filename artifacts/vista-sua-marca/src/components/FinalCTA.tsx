@@ -17,7 +17,7 @@ export function FinalCTA() {
             Transforme sua equipe em uma extensão da sua identidade visual com camisetas personalizadas de alto padrão.
           </p>
           <a
-            href="https://wa.me/5547999990000"
+            href="https://wa.me/554732125395"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-10 py-5 bg-primary text-primary-foreground text-lg font-bold hover:bg-white hover:text-foreground transition-all duration-300"

@@ -18,9 +18,9 @@ export function Footer() {
             <h4 className="font-bold text-foreground mb-6 uppercase tracking-wider text-sm">Contato</h4>
             <ul className="space-y-4">
               <li>
-                <a href="https://wa.me/5547999990000" className="flex items-center gap-3 text-foreground/70 hover:text-primary transition-colors">
+                <a href="https://wa.me/554732125395" className="flex items-center gap-3 text-foreground/70 hover:text-primary transition-colors">
                   <Phone size={18} />
-                  (47) 99999-0000
+                  (47) 3212-5395
                 </a>
               </li>
               <li>

@@ -50,7 +50,7 @@ export function Products() {
             <h2 className="text-3xl md:text-5xl font-serif text-foreground">Soluções para vestir sua marca</h2>
           </div>
           <a
-            href="https://wa.me/5547999990000"
+            href="https://wa.me/554732125395"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center text-foreground font-semibold hover:text-primary transition-colors"
@@ -80,7 +80,7 @@ export function Products() {
               <h3 className="text-xl font-bold text-foreground mb-2">{product.title}</h3>
               <p className="text-foreground/70 mb-6 leading-relaxed">{product.desc}</p>
               <a
-                href={`https://wa.me/5547999990000?text=Olá, gostaria de um orçamento para: ${product.title}`}
+                href={`https://wa.me/554732125395?text=Olá, gostaria de um orçamento para: ${product.title}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block py-3 px-0 border-b border-foreground text-foreground font-medium group-hover:text-primary group-hover:border-primary transition-all duration-300"

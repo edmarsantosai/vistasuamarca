@@ -33,7 +33,7 @@ export function Hero() {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/5547999990000"
+                href="https://wa.me/554732125395"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-foreground text-background text-base font-medium hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
@@ -43,7 +43,7 @@ export function Hero() {
                 <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
               </a>
               <a
-                href="https://wa.me/5547999990000"
+                href="https://wa.me/554732125395"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 bg-[#25D366] text-white text-base font-medium hover:bg-[#20bd5a] transition-all duration-300"
