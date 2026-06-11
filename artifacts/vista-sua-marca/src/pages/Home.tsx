@@ -13,6 +13,7 @@ import { HotelSection } from "@/components/HotelSection";
 import { EventsSection } from "@/components/EventsSection";
 import { Differentials } from "@/components/Differentials";
 import { HowItWorks } from "@/components/HowItWorks";
+import { SizeGuide } from "@/components/SizeGuide";
 import { Testimonials } from "@/components/Testimonials";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
@@ -49,6 +50,7 @@ export default function Home() {
         <EventsSection />
         <Differentials />
         <HowItWorks />
+        <SizeGuide />
         <Testimonials />
         <FinalCTA />
       </main>
