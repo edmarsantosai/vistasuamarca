@@ -12,6 +12,7 @@ import imgVerdeEscuro from "@assets/image_1781184896895.png";
 import imgMostarda from "@assets/image_1781184911047.png";
 import imgOffWhite from "@assets/image_1781184923981.png";
 import imgPreto from "@assets/image_1781184936873.png";
+import imgAzulBebe from "@assets/image_1781198729767.jpeg";
 
 const colors = [
   { id: "preto",        name: "Preto",         swatch: "#1a1a1a", img: imgPreto },
@@ -25,6 +26,7 @@ const colors = [
   { id: "sage",         name: "Alecrim",       swatch: "#7a9e7e", img: imgSageGreen },
   { id: "verde-escuro", name: "Verde Militar", swatch: "#3a5a30", img: imgVerdeEscuro },
   { id: "azul-medio",   name: "Índigo",        swatch: "#4a7aaa", img: imgAzulMedio },
+  { id: "azul-bebe",    name: "Azul Bebê",    swatch: "#a8cce8", img: imgAzulBebe },
   { id: "marinho",      name: "Azul Marinho",  swatch: "#1a2a5e", img: imgMarinho },
 ];
 
