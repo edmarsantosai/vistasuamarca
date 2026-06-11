@@ -4,12 +4,14 @@ import milanoPng from "@assets/image_1781184332205.png";
 import oversizedPng from "@assets/image_1781184351197.png";
 import venezaPng from "@assets/image_1781184370002.png";
 import veronaPng from "@assets/image_1781184391592.png";
+import sienaPng from "@assets/9529b87a-1de3-442a-9b18-2831dd2a10f3_1781197003959.jpeg";
 
 const models = [
-  { id: "milano", label: "Milano", img: milanoPng },
-  { id: "oversized", label: "Over Versace", img: oversizedPng },
-  { id: "veneza", label: "Feminina Veneza", img: venezaPng },
-  { id: "verona", label: "Verona", img: veronaPng },
+  { id: "milano",   label: "Milano",          img: milanoPng },
+  { id: "oversized",label: "Over Versace",    img: oversizedPng },
+  { id: "verona",   label: "Verona",          img: veronaPng },
+  { id: "veneza",   label: "Fem. Veneza",     img: venezaPng },
+  { id: "siena",    label: "Fem. Siena",      img: sienaPng },
 ];
 
 export function SizeGuide() {

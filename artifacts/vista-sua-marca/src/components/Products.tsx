@@ -3,7 +3,7 @@ import imgMilano from "@assets/image_1781196225826.png";
 import imgVerona from "@assets/image_1781184391592.png";
 import imgOversized from "@assets/image_1781184351197.png";
 import imgVeneza from "@assets/image_1781184370002.png";
-import productSiena from "@/assets/images/product-corporativa.png";
+import productSiena from "@assets/e915660a-845e-4cba-bc08-02648818242e_1781197003959.jpeg";
 
 const WA = "https://wa.me/554732125395";
 
