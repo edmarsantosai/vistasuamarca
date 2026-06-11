@@ -17,6 +17,7 @@ import { HowItWorks } from "@/components/HowItWorks";
 import { SizeGuide } from "@/components/SizeGuide";
 import { MilanoColors } from "@/components/MilanoColors";
 import { SienaColors } from "@/components/SienaColors";
+import { VeronaColors } from "@/components/VeronaColors";
 import { Testimonials } from "@/components/Testimonials";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
@@ -57,6 +58,7 @@ export default function Home() {
         <SizeGuide />
         <MilanoColors />
         <SienaColors />
+        <VeronaColors />
         <Testimonials />
         <FinalCTA />
       </main>
