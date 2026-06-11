@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { FirstImpression } from "@/components/FirstImpression";
+import { VideoSection } from "@/components/VideoSection";
 import { Authority } from "@/components/Authority";
 import { Segments } from "@/components/Segments";
 import { QuoteForm } from "@/components/QuoteForm";
@@ -40,6 +41,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <FirstImpression />
+        <VideoSection />
         <Authority />
         <Segments />
         <QuoteForm />
