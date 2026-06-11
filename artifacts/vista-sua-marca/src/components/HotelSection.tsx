@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Hotel } from "lucide-react";
+import { Shirt } from "lucide-react";
+import herbalImg from "@assets/image_1781196225826.png";
 
 export function HotelSection() {
   return (
@@ -14,12 +15,12 @@ export function HotelSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <Hotel className="text-primary mb-6" size={48} />
+            <Shirt className="text-primary mb-6" size={48} />
             <h2 className="text-3xl md:text-5xl font-serif leading-tight mb-6">
-              Uniformização Premium para <span className="text-primary italic">Hotelaria</span>
+              Camisetas padronizadas para <span className="text-primary italic">sua empresa</span>
             </h2>
             <p className="text-lg text-background/80 mb-10 leading-relaxed">
-              Soluções para recepção, governança, manutenção e equipes de atendimento, com conforto, elegância e padronização profissional.
+              Vista sua equipe com identidade e profissionalismo. Camisetas personalizadas com a sua marca, prontas para fortalecer a imagem do seu negócio.
             </p>
             
             <a
@@ -38,11 +39,13 @@ export function HotelSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="aspect-[4/5] bg-background/5 border border-background/20 relative"
+            className="aspect-[4/5] overflow-hidden"
           >
-             <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-background/40 font-medium tracking-wide uppercase text-sm">Imagem Hotelaria</span>
-             </div>
+            <img
+              src={herbalImg}
+              alt="Camisetas personalizadas para empresas"
+              className="w-full h-full object-cover"
+            />
           </motion.div>
         </div>
       </div>

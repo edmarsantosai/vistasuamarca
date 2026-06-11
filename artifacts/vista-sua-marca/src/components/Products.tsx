@@ -2,7 +2,6 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 // ── Card images ──────────────────────────────────────────────────────────────
-import imgMilanoCard from "@assets/image_1781196225826.png";
 import imgVeronaCard from "@assets/05d1fc02-9110-47bb-8d5c-c2ad8a54cbec_1781197958967.jpeg";
 import imgOversizedCard from "@assets/image_1781184351197.png";
 import imgVenezaCard from "@assets/image_1781184370002.png";
@@ -73,7 +72,7 @@ const products: Product[] = [
     name: "Milano",
     badge: "Mais vendida",
     desc: "Malha premium de alta gramatura com caimento estruturado. Ideal para uniformes corporativos, hotelaria e eventos que exigem presença e acabamento impecável.",
-    img: imgMilanoCard,
+    img: mPreto,
     sizeImg: sizeMilano,
     linha: "masculina",
     colors: [
@@ -113,8 +112,8 @@ const products: Product[] = [
   },
   {
     id: "over-versace",
-    name: "Over Versace",
-    badge: "Oversized",
+    name: "Oversized",
+    badge: null,
     desc: "Corte amplo e moderno, com ombro caído e malha encorpada. A escolha para marcas criativas, cafés premium, eventos e equipes com identidade autoral.",
     img: imgOversizedCard,
     sizeImg: sizeOversized,
