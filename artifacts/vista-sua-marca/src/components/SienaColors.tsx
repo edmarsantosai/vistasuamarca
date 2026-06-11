@@ -14,10 +14,10 @@ import imgCaramelo from "@assets/be8cf1f7-8187-4f0c-b562-1a77fca59c57_1781197003
 const colors = [
   { id: "preto",         name: "Preto",         swatch: "#1a1a1a", img: imgPreto },
   { id: "chumbo",        name: "Chumbo",        swatch: "#4a4a4a", img: imgChumbo },
-  { id: "gelo",          name: "Gelo",          swatch: "#dff0ec", img: imgGelo },
+  { id: "gelo",          name: "Off White",     swatch: "#dff0ec", img: imgGelo },
   { id: "branco",        name: "Branco",        swatch: "#f2f2f2", img: imgBranco },
-  { id: "capuccino",     name: "Capuccino",     swatch: "#b8a88a", img: imgCapuccino },
-  { id: "caramelo",      name: "Caramelo",      swatch: "#8b4a1e", img: imgCaramelo },
+  { id: "capuccino",     name: "Areia",         swatch: "#b8a88a", img: imgCapuccino },
+  { id: "caramelo",      name: "Avelã",         swatch: "#8b4a1e", img: imgCaramelo },
   { id: "vermelho",      name: "Vermelho",      swatch: "#c0201a", img: imgVermelho },
   { id: "alecrim",       name: "Alecrim",       swatch: "#7a9e7e", img: imgAlecrim },
   { id: "verde-militar", name: "Verde Militar", swatch: "#3a5a30", img: imgVerdeMilitar },
