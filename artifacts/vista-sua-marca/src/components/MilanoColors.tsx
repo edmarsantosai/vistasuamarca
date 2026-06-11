@@ -20,11 +20,11 @@ const colors = [
   { id: "branco",       name: "Branco",        swatch: "#e8e8f0", img: imgBranco },
   { id: "off-white",    name: "Off White",     swatch: "#f5f0e8", img: imgOffWhite },
   { id: "areia",        name: "Areia",         swatch: "#c8b89a", img: imgAreia },
-  { id: "ferrugem",     name: "Ferrugem",      swatch: "#8b3a1e", img: imgFerrugem },
+  { id: "ferrugem",     name: "Avelã",         swatch: "#8b3a1e", img: imgFerrugem },
   { id: "mostarda",     name: "Mostarda",      swatch: "#c98010", img: imgMostarda },
-  { id: "sage",         name: "Verde Sage",    swatch: "#7a9e7e", img: imgSageGreen },
+  { id: "sage",         name: "Alecrim",       swatch: "#7a9e7e", img: imgSageGreen },
   { id: "verde-escuro", name: "Verde Militar", swatch: "#3a5a30", img: imgVerdeEscuro },
-  { id: "azul-medio",   name: "Azul Médio",    swatch: "#4a7aaa", img: imgAzulMedio },
+  { id: "azul-medio",   name: "Índigo",        swatch: "#4a7aaa", img: imgAzulMedio },
   { id: "marinho",      name: "Azul Marinho",  swatch: "#1a2a5e", img: imgMarinho },
 ];
 
