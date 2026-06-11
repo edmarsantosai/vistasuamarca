@@ -64,6 +64,7 @@ interface Product {
   colors: Color[];
   sizeImg: string;
   linha: "masculina" | "feminina";
+  swatchesOnly?: boolean;
 }
 
 const products: Product[] = [
@@ -118,6 +119,7 @@ const products: Product[] = [
     img: imgOversizedCard,
     sizeImg: sizeOversized,
     linha: "masculina",
+    swatchesOnly: true,
     colors: [
       { id: "preto",         name: "Preto",        swatch: "#1a1a1a", img: mPreto },
       { id: "branco",        name: "Branco",       swatch: "#f2f2f2", img: mBranco },
@@ -167,6 +169,70 @@ function ProductPanel({ product }: { product: Product }) {
   const [tab, setTab] = useState<"cores" | "medidas">(hasColors ? "cores" : "medidas");
   const [colorIdx, setColorIdx] = useState(0);
   const selectedColor = product.colors[colorIdx];
+
+  if (product.swatchesOnly && hasColors) {
+    return (
+      <motion.div
+        initial={{ opacity: 0, height: 0 }}
+        animate={{ opacity: 1, height: "auto" }}
+        exit={{ opacity: 0, height: 0 }}
+        transition={{ duration: 0.35, ease: "easeInOut" }}
+        className="overflow-hidden"
+      >
+        <div className="border-t border-foreground/10 pt-10 pb-12 mt-2">
+          <h3 className="text-lg font-serif font-bold text-foreground mb-8">
+            Camiseta {product.name}
+          </h3>
+          <div className="grid md:grid-cols-2 gap-10 items-start">
+            <div>
+              <img
+                src={product.sizeImg}
+                alt={`Tabela de medidas ${product.name}`}
+                className="w-full rounded-sm shadow border border-foreground/10"
+              />
+            </div>
+            <div>
+              <p className="text-[10px] font-semibold tracking-widest uppercase text-foreground/40 mb-5">
+                Cores disponíveis
+              </p>
+              <div className="grid grid-cols-4 gap-4 mb-8">
+                {product.colors.map((c, i) => (
+                  <button
+                    key={c.id}
+                    onClick={() => setColorIdx(i)}
+                    title={c.name}
+                    className={`flex flex-col items-center gap-1.5 transition-all duration-200 ${
+                      colorIdx === i ? "opacity-100" : "opacity-55 hover:opacity-85"
+                    }`}
+                  >
+                    <span
+                      className={`w-9 h-9 rounded-full block border-2 transition-all duration-200 ${
+                        colorIdx === i
+                          ? "border-primary scale-110 shadow"
+                          : "border-foreground/20 hover:border-foreground/40"
+                      }`}
+                      style={{ backgroundColor: c.swatch }}
+                    />
+                    <span className="text-[9px] text-center leading-tight text-foreground/60 font-medium">
+                      {c.name}
+                    </span>
+                  </button>
+                ))}
+              </div>
+              <a
+                href={`${WA}?text=${encodeURIComponent(`Olá! Tenho interesse na Camiseta ${product.name} na cor ${selectedColor.name}. Gostaria de solicitar um orçamento.`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center w-full px-6 py-3.5 bg-foreground text-background text-xs font-semibold tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+              >
+                Pedir orçamento — {selectedColor.name}
+              </a>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+    );
+  }
 
   return (
     <motion.div
