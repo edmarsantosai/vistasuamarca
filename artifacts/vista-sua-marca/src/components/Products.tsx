@@ -224,6 +224,7 @@ function ProductPanel({ product }: { product: Product }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center w-full px-6 py-3.5 bg-foreground text-background text-xs font-semibold tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                translate="no"
               >
                 Pedir orçamento — {selectedColor.name}
               </a>
@@ -334,6 +335,7 @@ function ProductPanel({ product }: { product: Product }) {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-full px-6 py-3.5 bg-foreground text-background text-xs font-semibold tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                  translate="no"
                 >
                   Pedir orçamento — {selectedColor.name}
                 </a>
@@ -358,6 +360,7 @@ function ProductPanel({ product }: { product: Product }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-3.5 bg-foreground text-background text-xs font-semibold tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                translate="no"
               >
                 Pedir orçamento — {product.name}
               </a>
