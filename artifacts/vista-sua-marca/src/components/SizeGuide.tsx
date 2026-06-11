@@ -7,7 +7,7 @@ import veronaPng from "@assets/image_1781184391592.png";
 
 const models = [
   { id: "milano", label: "Milano", img: milanoPng },
-  { id: "oversized", label: "Oversized", img: oversizedPng },
+  { id: "oversized", label: "Over Versace", img: oversizedPng },
   { id: "veneza", label: "Feminina Veneza", img: venezaPng },
   { id: "verona", label: "Verona", img: veronaPng },
 ];
