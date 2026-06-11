@@ -192,7 +192,7 @@ function ProductPanel({ product }: { product: Product }) {
                     : "bg-transparent text-foreground/50 border-foreground/20 hover:border-foreground/50"
                 }`}
               >
-                Cores
+                Paleta
               </button>
               <button
                 onClick={() => setTab("medidas")}
