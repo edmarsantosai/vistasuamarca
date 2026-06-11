@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { CalendarDays } from "lucide-react";
+import imgEventos from "@assets/image_1781196139744.png";
 
 export function EventsSection() {
   return (
@@ -11,11 +12,13 @@ export function EventsSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="aspect-[4/5] bg-muted border border-border relative order-2 md:order-1"
+            className="aspect-[4/5] overflow-hidden order-2 md:order-1"
           >
-             <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-foreground/40 font-medium tracking-wide uppercase text-sm">Imagem Eventos</span>
-             </div>
+            <img
+              src={imgEventos}
+              alt="Camiseta Milano personalizada para eventos e festivais"
+              className="w-full h-full object-cover object-center"
+            />
           </motion.div>
 
           <motion.div

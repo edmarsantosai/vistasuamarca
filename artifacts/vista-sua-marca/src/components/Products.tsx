@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import imgMilano from "@assets/image_1781184936873.png";
+import imgMilano from "@assets/image_1781196225826.png";
 import imgVerona from "@assets/image_1781184391592.png";
 import imgOversized from "@assets/image_1781184351197.png";
 import imgVeneza from "@assets/image_1781184370002.png";
