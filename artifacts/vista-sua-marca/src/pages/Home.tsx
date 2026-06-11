@@ -18,6 +18,7 @@ import { SizeGuide } from "@/components/SizeGuide";
 import { MilanoColors } from "@/components/MilanoColors";
 import { SienaColors } from "@/components/SienaColors";
 import { VeronaColors } from "@/components/VeronaColors";
+import { OversizedColors } from "@/components/OversizedColors";
 import { Testimonials } from "@/components/Testimonials";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
@@ -59,6 +60,7 @@ export default function Home() {
         <MilanoColors />
         <SienaColors />
         <VeronaColors />
+        <OversizedColors />
         <Testimonials />
         <FinalCTA />
       </main>
