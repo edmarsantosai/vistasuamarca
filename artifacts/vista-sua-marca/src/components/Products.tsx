@@ -19,7 +19,7 @@ const masculinas = [
     id: "verona",
     name: "Verona",
     badge: null,
-    desc: "Modelagem slim com malha fria e toque suave. Perfeita para equipes comerciais, recepção e ambientes que pedem elegância no dia a dia.",
+    desc: "Modelagem slim com malha penteada com elastano e toque suave. Perfeita para equipes comerciais, recepção e ambientes que pedem elegância no dia a dia.",
     img: imgVerona,
   },
   {
