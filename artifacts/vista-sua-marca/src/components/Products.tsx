@@ -3,8 +3,6 @@ import { motion, AnimatePresence } from "framer-motion";
 
 // ── Card images ──────────────────────────────────────────────────────────────
 import imgVeronaCard from "@assets/05d1fc02-9110-47bb-8d5c-c2ad8a54cbec_1781197958967.jpeg";
-import imgOversizedCard from "@assets/image_1781184351197.png";
-import imgVenezaCard from "@assets/image_1781184370002.png";
 import imgSienaCard from "@assets/e915660a-845e-4cba-bc08-02648818242e_1781197003959.jpeg";
 
 // ── Milano color images ───────────────────────────────────────────────────────
@@ -127,7 +125,7 @@ const products: Product[] = [
     name: "Oversized",
     badge: null,
     desc: "Corte amplo e moderno, com ombro caído e malha encorpada. A escolha para marcas criativas, cafés premium, eventos e equipes com identidade autoral.",
-    img: imgOversizedCard,
+    img: oPreto,
     sizeImg: sizeOversized,
     linha: "masculina",
     colors: [
@@ -147,7 +145,7 @@ const products: Product[] = [
     name: "Veneza",
     badge: null,
     desc: "Modelagem feminina com caimento delicado e corte valorizado. Confortável e sofisticada para recepção, hotelaria, salões de beleza e equipes mistas.",
-    img: imgVenezaCard,
+    img: sOffWhite,
     sizeImg: sizeVeneza,
     linha: "feminina",
     colors: [],
