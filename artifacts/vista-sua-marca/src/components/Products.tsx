@@ -139,7 +139,7 @@ const products: Product[] = [
       { id: "vermelho",      name: "Vermelho",     swatch: "#c0201a", img: oVermelho },
       { id: "mostarda",      name: "Mostarda",     swatch: "#c98010", img: oMostarda },
       { id: "verde-militar", name: "Verde Militar",swatch: "#3a5a30", img: oVerdeMilitar },
-      { id: "laranja",       name: "Laranja",      swatch: "#f07030", img: oLaranja },
+      { id: "mandarim",      name: "Mandarim",     swatch: "#f07030", img: oLaranja },
     ],
   },
   {
