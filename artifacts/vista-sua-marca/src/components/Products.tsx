@@ -44,6 +44,17 @@ import sAlecrim from "@assets/f7a89315-e1bf-4bb0-8d29-395dece4fb10_1781197003959
 import sVerdeMilitar from "@assets/fda6de6d-61da-4053-ab86-8d96cea47d3f_1781197003959.jpeg";
 import sMarinho from "@assets/c2077888-355d-4132-8092-b96def80a85b_1781197003959.jpeg";
 
+// ── Oversized color images ────────────────────────────────────────────────────
+import oPreto        from "@assets/452b0eca-fe0b-4d37-9648-60ad70157da9_1781288679680.jpeg";
+import oBranco       from "@assets/053f2e29-a77d-4df2-8074-08a153698605_1781288679680.jpeg";
+import oOffWhite     from "@assets/7d3990af-f65c-463c-834d-b6618dbe223f_1781288679680.jpeg";
+import oAreia        from "@assets/f81ab68b-fd3b-48bd-a4b9-6c6cccfa74fe_1781288679680.jpeg";
+import oMarinho      from "@assets/a866f3e2-eb4b-426c-87e1-8951a7f1f57c_1781288679680.jpeg";
+import oVermelho     from "@assets/648befd5-2c27-4a81-8fd2-ae10d250d93d_1781288679680.jpeg";
+import oMostarda     from "@assets/0db75859-37f3-4d76-89ee-48b7e949edfd_1781288679680.jpeg";
+import oVerdeMilitar from "@assets/ffa64f50-7463-41be-b610-a91614d286ea_1781288679680.jpeg";
+import oLaranja      from "@assets/46853aca-4c50-4c22-94d8-474598d4e7f4_1781288679680.jpeg";
+
 // ── Size chart images ─────────────────────────────────────────────────────────
 import sizeMilano from "@assets/image_1781184332205.png";
 import sizeOversized from "@assets/image_1781184351197.png";
@@ -119,16 +130,16 @@ const products: Product[] = [
     img: imgOversizedCard,
     sizeImg: sizeOversized,
     linha: "masculina",
-    swatchesOnly: true,
     colors: [
-      { id: "preto",         name: "Preto",        swatch: "#1a1a1a", img: mPreto },
-      { id: "branco",        name: "Branco",       swatch: "#f2f2f2", img: mBranco },
-      { id: "off-white",     name: "Off White",    swatch: "#f5f0e8", img: mOffWhite },
-      { id: "areia",         name: "Areia",        swatch: "#c8b89a", img: mAreia },
-      { id: "marinho",       name: "Azul Marinho", swatch: "#1a2a5e", img: mMarinho },
-      { id: "vermelho",      name: "Vermelho",     swatch: "#c0201a", img: sVermelho },
-      { id: "mostarda",      name: "Mostarda",     swatch: "#c98010", img: mMostarda },
-      { id: "verde-militar", name: "Verde Militar",swatch: "#3a5a30", img: mVerdeMilitar },
+      { id: "preto",         name: "Preto",        swatch: "#1a1a1a", img: oPreto },
+      { id: "branco",        name: "Branco",       swatch: "#f2f2f2", img: oBranco },
+      { id: "off-white",     name: "Off White",    swatch: "#f5f0e8", img: oOffWhite },
+      { id: "areia",         name: "Areia",        swatch: "#c8b89a", img: oAreia },
+      { id: "marinho",       name: "Azul Marinho", swatch: "#1a2a5e", img: oMarinho },
+      { id: "vermelho",      name: "Vermelho",     swatch: "#c0201a", img: oVermelho },
+      { id: "mostarda",      name: "Mostarda",     swatch: "#c98010", img: oMostarda },
+      { id: "verde-militar", name: "Verde Militar",swatch: "#3a5a30", img: oVerdeMilitar },
+      { id: "laranja",       name: "Laranja",      swatch: "#f07030", img: oLaranja },
     ],
   },
   {
