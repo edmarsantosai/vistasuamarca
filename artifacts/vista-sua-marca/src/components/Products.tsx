@@ -25,7 +25,9 @@ import vPreto from "@assets/05d1fc02-9110-47bb-8d5c-c2ad8a54cbec_1781197958967.j
 import vOffWhite from "@assets/81e189ff-45c7-4e74-95fc-d5e13f148221_1781197958967.jpeg";
 import vRosa from "@assets/dff26c1d-5ad6-4f75-bbf4-caa368963c6e_1781197958967.jpeg";
 import vAreia from "@assets/7c30edf1-15a0-491f-8e82-6ba626f94ffe_1781197958967.jpeg";
-import vAzulBebe from "@assets/ae7bb7c7-7e87-4da6-8ba7-8b021ce9304a_1781197958967.jpeg";
+import vAzulBebe    from "@assets/IMG_1643_1781535885607.jpeg";
+import vTerra       from "@assets/IMG_1641_1781535885607.jpeg";
+import vVerdeMilitar from "@assets/IMG_1642_1781535885607.jpeg";
 import vChumbo from "@assets/65068ef1-dc26-4cc2-afb2-74ae2488d154_1781197958967.jpeg";
 import vMarinho from "@assets/da584f76-6558-45f6-b793-348806b5b59b_1781197958967.jpeg";
 import vCinzaMescla from "@assets/2d9ff115-7a99-4679-bd86-479653f693bf_1781197958967.jpeg";
@@ -52,6 +54,11 @@ import oVermelho     from "@assets/648befd5-2c27-4a81-8fd2-ae10d250d93d_17812886
 import oMostarda     from "@assets/0db75859-37f3-4d76-89ee-48b7e949edfd_1781288679680.jpeg";
 import oVerdeMilitar from "@assets/ffa64f50-7463-41be-b610-a91614d286ea_1781288679680.jpeg";
 import oLaranja      from "@assets/46853aca-4c50-4c22-94d8-474598d4e7f4_1781288679680.jpeg";
+
+// ── Veneza color images ───────────────────────────────────────────────────────
+import vnOffWhite from "@assets/IMG_1644_1781535856186.jpeg";
+import vnPreto    from "@assets/IMG_1640_1781535856186.jpeg";
+import vnMarinho  from "@assets/IMG_1639_1781535856186.jpeg";
 
 // ── Size chart images ─────────────────────────────────────────────────────────
 import sizeMilano from "@assets/image_1781184332205.png";
@@ -116,8 +123,10 @@ const products: Product[] = [
       { id: "off-white",    name: "Off White",    swatch: "#f5f0e8", img: vOffWhite },
       { id: "areia",        name: "Areia",        swatch: "#b8a878", img: vAreia },
       { id: "rosa",         name: "Rosa",         swatch: "#f0a0b8", img: vRosa },
-      { id: "azul-bebe",    name: "Azul Bebê",   swatch: "#c8d8f0", img: vAzulBebe },
+      { id: "azul-bebe",    name: "Azul Bebê",    swatch: "#a8c8e8", img: vAzulBebe },
       { id: "marinho",      name: "Azul Marinho", swatch: "#1a2a5e", img: vMarinho },
+      { id: "terra",        name: "Terra",         swatch: "#7a3a18", img: vTerra },
+      { id: "verde-militar",name: "Verde Militar", swatch: "#3a5a30", img: vVerdeMilitar },
     ],
   },
   {
@@ -145,10 +154,14 @@ const products: Product[] = [
     name: "Veneza",
     badge: null,
     desc: "Modelagem feminina com caimento delicado e corte valorizado. Confortável e sofisticada para recepção, hotelaria, salões de beleza e equipes mistas.",
-    img: sOffWhite,
+    img: vnPreto,
     sizeImg: sizeVeneza,
     linha: "feminina",
-    colors: [],
+    colors: [
+      { id: "preto",    name: "Preto",        swatch: "#1a1a1a", img: vnPreto },
+      { id: "off-white",name: "Off White",    swatch: "#f5f0e8", img: vnOffWhite },
+      { id: "marinho",  name: "Azul Marinho", swatch: "#1a2a5e", img: vnMarinho },
+    ],
   },
   {
     id: "siena",
