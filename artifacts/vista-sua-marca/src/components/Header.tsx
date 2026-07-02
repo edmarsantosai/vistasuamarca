@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.svg";
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,8 +28,8 @@ export function Header() {
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        <a href="#inicio" className="text-2xl font-serif font-bold text-foreground">
-          Vista Sua Marca<span className="text-primary">.</span>
+        <a href="#inicio" className="flex items-center" aria-label="Vista Sua Marca">
+          <img src={logo} alt="Vista Sua Marca" className="h-9 md:h-10 w-auto" />
         </a>
 
         {/* Desktop Nav */}

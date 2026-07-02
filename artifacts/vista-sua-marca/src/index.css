@@ -58,32 +58,32 @@
   --elevate-2: rgba(0,0,0, .08);
 
   --background: 40 33% 98%; /* Ivory #FAF9F6 */
-  --foreground: 0 0% 10%; /* Charcoal #1A1A1A */
+  --foreground: 0 11% 2%; /* Preto oficial #050404 */
   --border: 0 0% 85%;
   --card: 0 0% 100%;
-  --card-foreground: 0 0% 10%;
+  --card-foreground: 0 11% 2%;
   --card-border: 0 0% 90%;
   
   --sidebar: 40 33% 98%;
-  --sidebar-foreground: 0 0% 10%;
+  --sidebar-foreground: 0 11% 2%;
   --sidebar-border: 0 0% 85%;
-  --sidebar-primary: 44 53% 54%;
+  --sidebar-primary: 33 49% 58%;
   --sidebar-primary-foreground: 0 0% 100%;
   --sidebar-accent: 40 20% 95%;
-  --sidebar-accent-foreground: 0 0% 10%;
-  --sidebar-ring: 44 53% 54%;
+  --sidebar-accent-foreground: 0 11% 2%;
+  --sidebar-ring: 33 49% 58%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 0 0% 10%;
+  --popover-foreground: 0 11% 2%;
   --popover-border: 0 0% 90%;
 
-  --primary: 44 53% 54%; /* Gold */
+  --primary: 33 49% 58%; /* Dourado/champagne oficial #C99A60 */
   --primary-foreground: 0 0% 100%;
-  --secondary: 0 0% 10%; /* Dark charcoal for secondary CTAs */
+  --secondary: 0 11% 2%; /* Preto oficial para CTAs secundarios */
   --secondary-foreground: 0 0% 100%;
   --muted: 40 15% 92%;
   --muted-foreground: 0 0% 40%;
-  --accent: 44 53% 54%;
+  --accent: 33 49% 58%;
   --accent-foreground: 0 0% 100%;
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;

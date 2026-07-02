@@ -1,4 +1,5 @@
 import { Instagram, Mail, MapPin, Phone } from "lucide-react";
+import logo from "@/assets/logo.svg";
 
 export function Footer() {
   return (
@@ -6,9 +7,7 @@ export function Footer() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 lg:col-span-2">
-            <h3 className="text-2xl font-serif font-bold text-foreground mb-4">
-              Vista Sua Marca<span className="text-primary">.</span>
-            </h3>
+            <img src={logo} alt="Vista Sua Marca" className="h-10 w-auto mb-4" />
             <p className="text-foreground/70 max-w-sm mb-6 text-lg italic font-serif">
               "Vista sua marca. Valorize sua equipe. Impressione seu cliente."
             </p>

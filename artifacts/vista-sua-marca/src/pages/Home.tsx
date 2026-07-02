@@ -9,7 +9,6 @@ import { QuoteForm } from "@/components/QuoteForm";
 import { Products } from "@/components/Products";
 import { CustomProduction } from "@/components/CustomProduction";
 import { ExperienceAuthority } from "@/components/ExperienceAuthority";
-import { TrustedBy } from "@/components/TrustedBy";
 import { HotelSection } from "@/components/HotelSection";
 import { EventsSection } from "@/components/EventsSection";
 import { Differentials } from "@/components/Differentials";
@@ -46,7 +45,6 @@ export default function Home() {
         <Products />
         <CustomProduction />
         <ExperienceAuthority />
-        <TrustedBy />
         <HotelSection />
         <EventsSection />
         <Differentials />
